@@ -1,0 +1,39 @@
+body {
+    background-color: #fff
+}
+
+
+#auth #auth-right {
+    height: 100%;
+    background: url(../../images/bg/4853433.jpg),
+    linear-gradient(45deg, #b83a3c 5%, #475366 30%, #565a93)
+}
+
+#auth #auth-left {
+    padding: 5rem 8rem
+}
+
+#auth #auth-left .auth-title {
+    font-size: 3rem;
+    margin-bottom: 1rem
+}
+
+#auth #auth-left .auth-subtitle {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #a8aebb
+}
+
+#auth #auth-left .auth-logo {
+    margin-bottom: 1rem;
+}
+
+#auth #auth-left .auth-logo img {
+    height: 5rem
+}
+
+@media screen and (max-width: 767px) {
+    #auth #auth-left {
+        padding: 5rem
+    }
+}
